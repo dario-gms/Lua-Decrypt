@@ -8,7 +8,7 @@ A tool for decrypting and encrypting Lua 5.1 bytecode files from Forsaken World 
 
 | Tool | Purpose | Download |
 |------|---------|----------|
-| **Java JRE 8+** | Required to run unluac | [adoptium.net](https://adoptium.net) |
+| **Java 21+** | Required to run unluac | [adoptium.net](https://adoptium.net) |
 | **unluac.jar** | Decompiles bytecode → source | [github.com/HansWessels/unluac](https://github.com/HansWessels/unluac/releases) |
 | **luac.exe** | Compiles source → bytecode | [luabinaries.sourceforge.net](https://luabinaries.sourceforge.net) — `lua-5.1.5_Win64_bin.zip` |
 
