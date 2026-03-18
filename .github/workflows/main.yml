@@ -53,7 +53,7 @@ jobs:
             $sha = "${{ github.sha }}".Substring(0, 7)
             $dest = "dist\FW_LUA_Script_$sha.exe"
           }
-          Rename-Item "dist\FW LUA Script.exe" $dest
+          Move-Item "dist\FW LUA Script.exe" $dest
           Write-Host "Output: $dest"
         shell: pwsh
 
