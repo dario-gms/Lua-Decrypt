@@ -16,7 +16,7 @@ _NO_WINDOW = subprocess.CREATE_NO_WINDOW if sys.platform == 'win32' else 0
 # ─────────────────────────────────────────────────────────────────────────────
 
 APP_NAME    = "FW LUA Script"
-APP_VERSION = "2.0"
+APP_VERSION = "2.1"
 APP_YEAR    = "2026"
 
 UNLUAC_JAR  = "unluac.jar"
